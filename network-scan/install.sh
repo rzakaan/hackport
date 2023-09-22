@@ -10,7 +10,8 @@
 # hping3
 
 if [[ $OSTYPE == 'darwin'* ]]; then
-    brew install zenmap wireshark lynis hping3
+    sudo brew install zenmap wireshark lynis hping3
+    sudo port install kismet
 else
 
 fi
